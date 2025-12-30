@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-service-964443-config
+  namespace: default
+data:
+  APP_ENV: "production"
+  SERVICE_NAME: "hello-service-964443"
